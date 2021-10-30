@@ -246,3 +246,80 @@ flex:1;
 .post-image img{
     width: 585px;
 }
+.post-top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+.top-info h3{
+    font-size: medium;
+}
+.top-info p{
+    color: gray;
+    font-size: small;
+}
+.post-bottom p{
+    font-size: xx-large;
+    color: red;
+
+}
+.post-bottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+}
+.post-reactions{
+    padding-top: 10px;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding:15px;
+
+}
+.post-react .material-icons:hover {
+    color: blue;
+}
+.friends-row{
+    overflow: scroll;
+    overflow-x:hidden;
+    flex:1;
+}
+.friends-online{
+    margin:10px;
+    cursor: pointer;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    padding:10px;
+}
+.friends-online:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.friends-online h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.friends-online .material-icons{
+    font-size: xx-large;
+    color:blue;
+}
+@media (max-width:768px){
+    .left-row{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .nav-mid{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .nav-right{
+        display: none;
+    }
+}
